@@ -1,3 +1,9 @@
+---
+layout: post
+title:  Sample linux post
+categories: [Bash,Linux]
+---
+
 ```bash
 [root@node4 ~]# lsblk
 NAME          MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
