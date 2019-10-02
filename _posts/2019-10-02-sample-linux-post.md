@@ -4,6 +4,8 @@ title:  Sample linux post
 categories: [Bash,Linux]
 ---
 
+Some text for example.
+
 ```bash
 [root@node4 ~]# lsblk
 NAME          MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
