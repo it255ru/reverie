@@ -16,100 +16,169 @@ Derivatives of the EEG technique include evoked potentials (EP), which involves 
 
 MethionylglutaminylarginyltyrosylglutamylserylleucylphenylalanylalanylglutaminylleucyllysylglutamylarginyllysylglutamylglycylalanylphenylalanylvalylprolyphenylalanYlvalythreonylleucylglycylaspartylprolylglycylisoleucylglutamylglutaminylsErylleucyllysylisoleucylaspartylthreonylleucylIsoleucylglutamylalanylglycylalanylasparthlalanylleucylglutamylleucylglycylisoleucylprolylphenylalanylseRylaspartylprolylleucylalanylaspartylglycylpRolylthreOnylisoleucylglutaminylasPfraginylalanylthreonylleucylarfinylalanylphenylalanylalanylalanylglycylvalythreonylprolylalanylglutaminylcysteinylphenylalanylglutamylmethionylleucylalanylleuOylisoleucylarginylglutaminyllysyhistidylprolylthreonylisoleucylprolylisoleucylglycylleucylmethionyltyrosylalanylasparaginylleucylvalylphenylalanylasparaginyllysyglycylisoleucylaspartylglutamylphenylalanylthrosylalanylglutaminylcysteinylglutamyllysylvalylglycylvalylaspartylserylvalylleucylvalylalnylaspartylvalylprolylvalylglUtaminylglutamylserylalanylprolylphenylalanylarginylglutaminylalanylalanylleucylarginylhistidylasparaginyvalylalanylprolylisoleucylprolylisoleucylphenylalanylisoleucylphenylalanylisoleucylcysteinylprolylprolylaspartylalanylaspartylaspartylaspartylleucylleucylarginylglutaminylisoleucylalanylseryltyrosylglycylarginylglycyltyrosylthreonyltyrOsylleucylleucylserylarginylalanylglycylvalylthreonylglycylalanylglutamYlasparainylarginylalanylalanylleucylprolylleucylasparaginylhistidylleucylValylalanyllysylleucyllysylglutamyltyrosylasparaginylalanylalanylprolylprolylleucylglutaminylglgycylphenylalanylglycylisoleucylserylalanylprolylaspartylglutaminylvalyllysylalanylalanylisoleucylaspartylalanylglycylalanylalanylglycylalanylisoleucylserylglycylserylalanylisoleucylvalyllysylisoIeucylisoleucylglutamylglutaminylHistidylasparaginyliSoleucylglutamylprolylglutamyllysylmethionylleucylalanylalanylleucyllysylvalylphenylalanylcalylglutaminylprolylmethionlysylalanylalanylthreonylarginylserine
 
-Success!
-{:.success}
-
-`success`{:.success} `info`{:.info} `warning`{:.warning} `error`{:.error}
-
-<div class="grid-container">
-<div class="grid grid--p-3">
-<div class="cell cell--12 cell--md-5 cell--lg-4" markdown="1">
-![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg "Image_rounded"){:.rounded}
-</div>
-<div class="cell cell--12 cell--md-5 cell--lg-4" markdown="1">
-![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg "Image_circle+shadow"){:.circle.shadow}
-</div>
-</div>
+<div class="message">
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 </div>
 
-<div class="grid-container">
-<div class="grid grid--p-1">
-<div class="cell cell--6 cell--md-4 cell--lg-2">
-<div class="button button--success button--pill my-2"><i class="fas fa-space-shuttle"></i> CLICK ME</div>
-</div>
-<div class="cell cell--6 cell--md-4 cell--lg-2">
-<div class="button button--outline-info button--pill my-2"><i class="fas fa-space-shuttle"></i> CLICK ME</div>
-</div>
-<div class="cell cell--6 cell--md-4 cell--lg-2">
-<div class="button button--warning button--rounded my-2"><i class="fas fa-user-astronaut"></i> CLICK ME</div>
-</div>
-<div class="cell cell--6 cell--md-4 cell--lg-2">
-<div class="button button--outline-error button--rounded my-2"><i class="fas fa-user-astronaut"></i> CLICK ME</div>
-</div>
-</div>
-</div>
+Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
-<!--more-->
+> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
-[Documentation](https://tianqi.name/jekyll-TeXt-theme/docs/en/additional-styles)
+Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
 
-## Alert
+## Inline HTML elements
 
-Success Text.
-{:.success}
+HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
-Info Text.
-{:.info}
+- **To bold text**, use `<strong>`.
+- *To italicize text*, use `<em>`.
+- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
+- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
+- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
+- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
 
-Warning Text.
-{:.warning}
+Most of these elements are styled by browsers with few modifications on our part.
 
-Error Text.
-{:.error}
+## Footnotes
 
-## Tag
+Footnotes are supported as part of the Markdown syntax. Here's one in action. Clicking this number[^fn-sample_footnote] will lead you to a footnote. The syntax looks like:
 
-`success`{:.success}
+{% highlight text %}
+Clicking this number[^fn-sample_footnote]
+{% endhighlight %}
 
-`info`{:.info}
+Each footnote needs the `^fn-` prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks something like this:
 
-`warning`{:.warning}
+{% highlight text %}
+[^fn-sample_footnote]: Handy! Now click the return link to go back.
+{% endhighlight %}
 
-`error`{:.error}
+You can place the footnoted content wherever you like. Markdown parsers should properly place it at the bottom of the post.
 
-## Image
+## Heading
 
-| `Border` | `Shadow` |
-| ---- | ---- |
-| ![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg "Image_border"){:.border} | ![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg "Image_shadow"){:.shadow} |
+Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 
-| `Rounded` | `Circle` |
-| ---- | ---- |
-| ![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg "Image_rounded"){:.rounded} | ![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg "Image_circle"){:.circle} |
+### Code
 
-### Mixture
+Inline code is available with the `<code>` element. Snippets of multiple lines of code are supported through Pygments. Longer lines will automatically scroll horizontally when needed.
 
-| `Border+Rounded` | `Circle+Shadow` |
-| ---- | ---- |
-| ![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg "Image_border+rounded"){:.border.rounded} | ![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg "Image_circle+shadow"){:.circle.shadow} |
+{% highlight js %}
+// Example can be run directly in your JavaScript console
 
-| `Rounded+Shadow` | `Circle+Border+Shadow` |
-| ---- | ---- |
-| ![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg "Image_rounded+shadow"){:.circle.rounded.shadow} | ![Image](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg "Image_circle+border+shadow"){:.circle.border.shadow}
+// Create a function that takes two arguments and returns the sum of those arguments
+var adder = new Function("a", "b", "return a + b");
 
-## Extra
+// Call the function
+adder(2, 6);
+// > 8
+{% endhighlight %}
 
-| Name | Description |
-| ---- | ---- |
-| Spacing | [Doc](https://tianqi.name/jekyll-TeXt-theme/docs/en/spacing) |
-| Grid | [Doc](https://tianqi.name/jekyll-TeXt-theme/docs/en/grid) |
-| Icons | [Doc](https://tianqi.name/jekyll-TeXt-theme/docs/en/icons) |
-| Image | [Doc](https://tianqi.name/jekyll-TeXt-theme/docs/en/image) |
-| Button | [Doc](https://tianqi.name/jekyll-TeXt-theme/docs/en/button) |
-| Item | [Doc](https://tianqi.name/jekyll-TeXt-theme/docs/en/item) |
-| Card | [Doc](https://tianqi.name/jekyll-TeXt-theme/docs/en/card) |
-| Hero | [Doc](https://tianqi.name/jekyll-TeXt-theme/docs/en/hero) |
-| Swiper | [Doc](https://tianqi.name/jekyll-TeXt-theme/docs/en/swiper) |
+You may also optionally show code snippets with line numbers. Add `linenos` to the Pygments tags.
+
+{% highlight js linenos %}
+// Example can be run directly in your JavaScript console
+
+// Create a function that takes two arguments and returns the sum of those arguments
+var adder = new Function("a", "b", "return a + b");
+
+// Call the function
+adder(2, 6);
+// > 8
+{% endhighlight %}
+
+Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+
+### Gists via GitHub Pages
+
+Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.
+
+{% gist 13f94b734a4ddb132735 gist.md %}
+
+Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.
+
+### Lists
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+* Donec id elit non mi porta gravida at eget metus.
+* Nulla vitae elit libero, a pharetra augue.
+
+Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+
+1. Vestibulum id ligula porta felis euismod semper.
+2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+3. Maecenas sed diam eget risus varius blandit sit amet non magna.
+
+Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+
+<dl>
+  <dt>HyperText Markup Language (HTML)</dt>
+  <dd>The language used to describe and define the content of a Web page</dd>
+
+  <dt>Cascading Style Sheets (CSS)</dt>
+  <dd>Used to describe the appearance of Web content</dd>
+
+  <dt>JavaScript (JS)</dt>
+  <dd>The programming language used to build advanced Web sites and applications</dd>
+</dl>
+
+Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+### Images
+
+Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
+
+![placeholder](http://placehold.it/800x400 "Large example image")
+![placeholder](http://placehold.it/400x200 "Medium example image")
+![placeholder](http://placehold.it/200x200 "Small example image")
+
+### Tables
+
+Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Upvotes</th>
+      <th>Downvotes</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Totals</td>
+      <td>21</td>
+      <td>23</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>Alice</td>
+      <td>10</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>4</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td>7</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table>
+
+Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+-----
+
+Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+
+[^fn-sample_footnote]: Handy! Now click the return link to go back.
 
 ```bash
 [root@node4 ~]# lsblk
