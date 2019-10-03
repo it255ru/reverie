@@ -180,7 +180,8 @@ Want to see something else added? <a href="https://github.com/poole/poole/issues
 
 [^fn-sample_footnote]: Handy! Now click the return link to go back.
 
-```bash
+
+{% highlight bash %}
 [root@node4 ~]# lsblk
 NAME          MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
 sda             8:0    0    8G  0 disk
@@ -245,4 +246,4 @@ Installed:
   boom-boot-0.9-5.el8.noarch    boom-boot-grub2-0.9-5.el8.noarch      boom-boot-conf-0.9-5.el8.noarch   python3-b
 
 Complete!
-```
+{% endhighlight %}
