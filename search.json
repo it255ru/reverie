@@ -16,11 +16,11 @@
   {% for page in site.pages %}
    {
      {% if page.title != nil %}
-        "title"    : "{{ page.title | escape }}",
+        "title"    : "{% if page.title != "" %}{{ page.title | escape }}{% else %}{{ page.excerpt | strip_html |  escape | strip }}{%endif%}",
         "category" : "{{ page.category }}",
         "tags"     : "{{ page.tags | join: ', ' }}",
         "url"      : "{{ site.baseurl }}{{ page.url }}",
-        "date"     : "{{ page.date }}",
+        "date"     : "{{ page.date | date: "%B %e, %Y" }}",
         "content"  : "{{ page.content | strip_html | strip_newlines }}"
      {% endif %}
    } {% unless forloop.last %},{% endunless %}
