@@ -19,3 +19,22 @@ permalink: /search/
     json: '{{ site.baseurl }}/search.json'
     });
 </script>
+
+<div class="category-index">
+  {% for category in site.categories %}
+    {% assign nposts = category | last | size %}
+    <div class="collection" data-name="{{ category | first | escape }}">
+      <h1>{{ category | first }}</h1>
+      <h2>{{ nposts }} post{% if nposts != 1 %}s{% endif %}</h2>
+      <ul>
+        {% for posts in category %}
+          {% for post in posts %}
+            {% if post.title %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>
