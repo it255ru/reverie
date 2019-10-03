@@ -96,4 +96,5 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - README_OLD.md
 
