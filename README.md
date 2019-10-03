@@ -1,3 +1,6 @@
+# reverie
+
+
 ## Creating Post Files
 
 To create a new post, all you need to do is create a file in the */_posts* directory. Jekyll requires blog post files to be named like these:
