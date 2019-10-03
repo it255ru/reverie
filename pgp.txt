@@ -1,0 +1,8 @@
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1.4.11 (Darwin)
+
+mQENBE9e0pIBCADXib13PNjCbKH0dbCGMRDNDtg1Fp75t/jr7lqJE8C9B5XlrAXb
+O1uScvzRUt+myNyEhk21lA8KmTR0f1up84frxdTV7H4evePWbYbKigVu5zKKAvnG
+jrpwB041z2lIc22q/ZDsctSM
+=vrTm
+-----END PGP PUBLIC KEY BLOCK-----
