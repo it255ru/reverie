@@ -1,9 +1,7 @@
 ---
 layout: post
 title:  Typography
-date: 2015-10-20 11:59:00-0400
-description: an example of a blog post with comments
-comments: true
+excerpt: "A nice post"
 categories: [Typography]
 ---
 
