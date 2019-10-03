@@ -1,9 +1,9 @@
 ---
 ---
 [
-  {% for page in site.pages %}
+  {% for post in site.pages %}
    {
-        "title"    : "{% if page.title != "" %}{{ page.title | escape }}{% else %}{{ page.excerpt | strip_html |  escape | strip }}{%endif%}",
+        "title"    : "{% if post.title != "" %}{{ post.title | escape }}{% else %}{{ post.excerpt | strip_html |  escape | strip }}{%endif%}",
         "category" : "{{ page.category }}",
         "tags"     : "{{ page.tags | join: ', ' }}",
         "url"      : "{{ site.baseurl }}{{ page.url }}",
