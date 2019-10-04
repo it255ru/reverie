@@ -19,9 +19,10 @@ permalink: /search/
     json: '{{ site.baseurl }}/search.json',
     noResultsText: 'No results found'
     });
+    // Use this to search
+    setTimeout(() => {
+      window.simpleJekyllSearch.search('t')
+    }, 2000)
 </script>
 
-// Use this to search
-setTimeout(() => {
-  window.simpleJekyllSearch.search('t')
-}, 2000)
+
