@@ -19,7 +19,7 @@ permalink: /search/
     SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
-    searchResultTemplate: '{locale} - {title}',
+    searchResultTemplate: '<div style="text-align: left !important;"><span>{locale} -- {content}</span></div>',
     json: '{{ site.baseurl }}/search.json',
     noResultsText: 'No results found'
     });
