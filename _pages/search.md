@@ -5,7 +5,11 @@ permalink: /search/
 ---
 
 <div id="search-container">
-    <input type="text" id="search-input" placeholder="Search through the blog posts...">
+    <div style="text-align: center">
+        <h3>{{ site.data.search.en.header }}</h3>
+        <input type="text" id="search-input" class="search-input" placeholder="Search"/>
+    </div>
+    <h3>{{ site.data.search.en.results }}</h3>    
     <ul id="results-container"></ul>
 </div>
 
@@ -15,7 +19,7 @@ permalink: /search/
     SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
-    searchResultTemplate: '<div style="text-align: left !important;"><a href="{url}"><h1 style="text-align:left !important;">{title}</h1></a><span style="text-align:left !important;">{date}</span></div></a><span style="text-align:left !important;">{content}</span></div>',
+   searchResultTemplate: '<li class="entry-title"><a href="{url}" title="{title}">{{site.data.common.flags.{{locale}}}} - {title}</a></li>',
     json: '{{ site.baseurl }}/search.json',
     noResultsText: 'No results found'
     });
@@ -24,5 +28,3 @@ permalink: /search/
       window.simpleJekyllSearch.search('t')
     }, 2000)
 </script>
-
-
