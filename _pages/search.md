@@ -20,3 +20,8 @@ permalink: /search/
     noResultsText: 'No results found'
     });
 </script>
+
+// Use this to search
+setTimeout(() => {
+  window.simpleJekyllSearch.search('t')
+}, 2000)
